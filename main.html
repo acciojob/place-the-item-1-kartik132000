@@ -4,9 +4,38 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+<style>
+	.holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px; /* Optional for spacing */
+}
+
+.item {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 20px;
+}
+
+</style>
 </head>
 
 <body>
+	<div class="holder">
+  <div class="item" style="background-color: green;">3</div>
+  <div class="item" style="background-color: red;">1</div>
+  <div class="item" style="background-color: blue;">2</div>
+  <div class="item" style="background-color: green;">4</div>
+  <div class="item" style="background-color: green;">5</div>
+  <div class="item" style="background-color: green;">6</div>
+  <div class="item" style="background-color: green;">7</div>
+</div>
+
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
